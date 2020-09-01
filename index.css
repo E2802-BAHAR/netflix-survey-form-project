@@ -1,0 +1,95 @@
+                                                                body {
+                                                                    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+                                                                    color: white;
+                                                                }
+                                                                
+                                                                div {
+                                                                    display: block;
+                                                                }
+                                                                
+                                                                h1#title {
+                                                                    text-align: center;
+                                                                    font-size: 50px;
+                                                                    font-weight: bold;
+                                                                    font-family: 'Bowlby One', cursive;
+                                                                    font-style: normal;
+                                                                    font: xx-large;
+                                                                    padding-top: 20px;
+                                                                    margin-bottom: 10px;
+                                                                    letter-spacing: 5px;
+                                                                }
+                                                                
+                                                                h1::first-letter {
+                                                                    font-size: 55px;
+                                                                }
+                                                                
+                                                                span::first-letter {
+                                                                    font-size: 55px;
+                                                                }
+                                                                
+                                                                h1>span {
+                                                                    color: red;
+                                                                    font-weight: bold;
+                                                                }
+                                                                
+                                                                h3#description {
+                                                                    text-align: center;
+                                                                    font-size: 24px;
+                                                                    font-family: 'Sorts Mill Goudy', serif;
+                                                                    margin-top: 1px;
+                                                                    margin-bottom: 20px;
+                                                                }
+                                                                
+                                                                div#container {
+                                                                    background-color: rgba(0, 0, 0, 0.3);
+                                                                    width: 1146px;
+                                                                    height: 1200px;
+                                                                    margin: 18px auto 30px auto;
+                                                                }
+                                                                
+                                                                form#survey-form {
+                                                                    width: 500px;
+                                                                    height: 900px;
+                                                                    background-color: rgba(0, 0, 0, 0.8);
+                                                                    margin: auto;
+                                                                    padding-top: 10px;
+                                                                    ;
+                                                                }
+                                                                
+                                                                .box {
+                                                                    margin-top: 20px;
+                                                                    margin-left: 40px;
+                                                                }
+                                                                
+                                                                #name,
+                                                                #Age,
+                                                                #email,
+                                                                #Content_type {
+                                                                    margin-top: 20px;
+                                                                    height: 40px;
+                                                                    width: 400px;
+                                                                    border: none;
+                                                                    padding: 10px;
+                                                                }
+                                                                
+                                                                .button {
+                                                                    background: red;
+                                                                    width: 180px;
+                                                                    height: 45px;
+                                                                    border-color: transparent;
+                                                                    border: 5px solid red;
+                                                                    border-radius: 20px;
+                                                                    color: white;
+                                                                    font-size: 20px;
+                                                                    font-weight: bold;
+                                                                    letter-spacing: 2px;
+                                                                    margin-top: 10px;
+                                                                    margin-left: 150px;
+                                                                }
+                                                                
+                                                                .button:hover {
+                                                                    background: white;
+                                                                    color: red;
+                                                                    border-color: transparent;
+                                                                    cursor: pointer;
+                                                                }
